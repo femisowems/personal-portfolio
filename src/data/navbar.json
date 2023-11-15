@@ -1,0 +1,35 @@
+{
+  "navLinks": [
+    {
+      "to": "home",
+      "text": "Home"
+    },    
+    {
+      "to": "portfolio",
+      "text": "Portfolio"
+    }
+  ],
+  "navInfo": [
+    {
+      "title": "NAME",
+      "text": "Femi Sowemimo"
+    },
+    {
+      "title": "ROLE",
+      "text": "Developer, Designer & Founder"
+    },
+    {
+      "title": "LOCATION",
+      "text": "Toronto, ON"
+    },
+    {
+      "title": "EMAIL",
+      "text": "femi@ssowemimo.com"
+    },
+    {
+      "title": "EXPERIENCE",
+      "text": "Open for exciting opportunities"
+    }
+
+  ]
+}

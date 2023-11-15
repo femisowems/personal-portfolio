@@ -1,0 +1,15 @@
+{
+  "welcomeText": "Hello. My name is",
+  "name": "Femi Sowemimo",
+  "text": "Experienced Software Developer specializing in Front-End Development and Web Development. Skilled in HTML, SCSS, JavaScript (ES6+), TypeScript, Wordpress and Angular.",
+  "socialLinks": [
+    {
+      "text": "LINKEDIN",
+      "to": "https://www.linkedin.com/in/ssowemimo"
+    },
+    {
+      "text": "GITHUB",
+      "to": "https://github.com/femisowems/"
+    }
+  ]
+}

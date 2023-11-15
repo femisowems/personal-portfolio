@@ -1,0 +1,67 @@
+{
+  "filter": [
+    {
+      "category": "all",
+      "text": "All"
+    },
+    {
+      "category": "pp",
+      "text": "Demo"
+    },
+    {
+      "category": "business",
+      "text": "Service"
+    }
+  ],
+  "portfolioItems": [
+    {
+      "order": 0,
+      "category": "pp",
+      "action": {
+        "type": "item",
+        "number": 1
+      },
+      "description": {
+        "text": "Slick Slicezz",
+        "caption": "Built using React.js, REST api"
+      }
+    },
+    {
+      "order": 1,
+      "category": "pp",
+      "action": {
+        "type": "item",
+        "number": 2
+      },
+      "description": {
+        "text": "IMDB 2.0",
+        "caption": "Built using Angular, Typescript, SCSS"
+      }
+    },
+    {
+      "order": 2,
+      "category": "pp",
+      "action": {
+        "type": "item",
+        "number": 3
+      },
+      "description": {
+        "text": "starterdev.io",
+        "caption": "Development Agency"
+      }
+    },
+    {
+      "order": 3,
+      "category": "pp",
+      "action": {
+        "type": "item",
+        "number": 4
+      },
+      "description": {
+        "text": "Sudoku",
+        "caption": "Built using Angular, Typescript, SCSS"
+      }
+    }
+  ],
+  "title": "Portfolio"
+}
