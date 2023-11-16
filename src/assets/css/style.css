@@ -664,14 +664,14 @@ h2.section-title {
   left: 72%;
   width: 127px;
   height: 127px;
-  bottom: -127px;
+  bottom: -227px;
   animation-delay: 72s;
 }
 .home-right-part .circles li:nth-child(16) {
   left: 81%;
   width: 72px;
   height: 72px;
-  bottom: -72px;
+  bottom: -172px;
   animation-delay: 23s;
 }
 .home-right-part .circles li:nth-child(17) {
