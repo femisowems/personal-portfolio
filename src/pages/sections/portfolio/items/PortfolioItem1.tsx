@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // Images
-import item1 from '../../../../assets/images/portfolio/items/item_03.jpg';
+import item1 from '../../../../assets/images/portfolio/items/item_01_3.jpg';
 import item2 from '../../../../assets/images/portfolio/items/item_02.jpg';
 import item3 from '../../../../assets/images/portfolio/items/item_03.jpg';
 
@@ -25,21 +25,18 @@ function PortfolioItem1() {
             </h2>
 
             <p className="section-info">
-              Two ghostly white figures in coveralls and helmets are softly
-              dancing.
+            Built a website for a local pizza store as a personal project to work on different skillset.
             </p>
 
             <p>
-              Cras pretium metus pulvinar ultricies auctor. In varius purus
-              blandit sem mollis tristique. Curabitur sed lorem vel ligula
-              pulvinar porttitor. Proin sit amet mauris eleifend amet,
-              ullamcorper lacus. Vangelis rich in heavy atoms descended from
-              astronomers dream of the mind’s cras pretium metus pulvinar
-              ultricies auctor in varius purus blandit.
+              <div> Technologies Used: </div>
+              GraphQL · Headless CMS · React.js · REST API · Reusable Component · SCSS · JavaScript
             </p>
 
             <p>
-              <a className="button">View Project</a>
+              <a href="https://starterdev-pizzas-take2.vercel.app/" target="_blank" className="button">View Project</a>
+
+              <a href="https://starterdev-pizzas-take2.vercel.app/" target="_blank" className="m-left-10 button">Github</a>
             </p>
           </div>
           <div className="one-half width-55 last">

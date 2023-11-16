@@ -27,21 +27,16 @@ function PortfolioItem2() {
             </h2>
 
             <p className="section-info">
-              Two ghostly white figures in coveralls and helmets are softly
-              dancing.
+              boujee* IMDB 2.0 - sarcasm*
             </p>
 
             <p>
-              Cras pretium metus pulvinar ultricies auctor. In varius purus
-              blandit sem mollis tristique. Curabitur sed lorem vel ligula
-              pulvinar porttitor. Proin sit amet mauris eleifend amet,
-              ullamcorper lacus. Vangelis rich in heavy atoms descended from
-              astronomers dream of the mind’s cras pretium metus pulvinar
-              ultricies auctor in varius purus blandit.
+              <div> Technologies Used: </div>
+              SCSS · TypeScript · HTML5 · Github · AngularJS
             </p>
 
             <p>
-              <a className="button">View Project</a>
+            <a href="https://github.com/femisowems/movies-tvs-library/" target="_blank" className=" button">Github</a>
             </p>
           </div>
           <div className="one-half width-55 last">

@@ -9,7 +9,7 @@
       "text": "Demo"
     },
     {
-      "category": "business",
+      "category": "service",
       "text": "Service"
     }
   ],
@@ -23,7 +23,8 @@
       },
       "description": {
         "text": "Slick Slicezz",
-        "caption": "Built using React.js, REST api"
+        "caption": "Built using React.js, REST api",
+        "type": "Demo"
       }
     },
     {
@@ -35,19 +36,21 @@
       },
       "description": {
         "text": "IMDB 2.0",
-        "caption": "Built using Angular, Typescript, SCSS"
+        "caption": "Built using Angular, Typescript, SCSS",
+        "type": "Demo"
       }
     },
     {
       "order": 2,
-      "category": "pp",
+      "category": "service",
       "action": {
         "type": "item",
         "number": 3
       },
       "description": {
         "text": "starterdev.io",
-        "caption": "Development Agency"
+        "caption": "Development Agency",
+        "type": "Service"
       }
     },
     {
@@ -59,7 +62,8 @@
       },
       "description": {
         "text": "Sudoku",
-        "caption": "Built using Angular, Typescript, SCSS"
+        "caption": "coming soon...",
+        "type": "Demo"
       }
     }
   ],

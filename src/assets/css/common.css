@@ -39,6 +39,10 @@
   margin-right: 35px;
 }
 
+.m-left-10 {
+  margin-left: 10px;
+}
+
 .m-bottom-0 {
   margin-bottom: 0 !important;
 }
@@ -192,4 +196,12 @@ sub {
 .last {
   margin-right: 0 !important;
   clear: right;
+}
+
+.p-left-10 {
+  padding-left: 10px;
+}
+
+.p-left-15 {
+  padding-left: 15px;
 }

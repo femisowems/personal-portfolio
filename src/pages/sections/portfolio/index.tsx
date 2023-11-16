@@ -177,8 +177,9 @@ function Portfolio() {
                         exit={{ scale: 0, opacity: 0 }}
                         transition={{ duration: 0.5 }}
                         id={'p-item-' + (i + 1)}
-                        className="grid-item element-item p-one-third">
+                        className="grid-item element-item p-one-third" >
                         <a
+                        
                           className="item-link ajax-portfolio"
                           style={{ position: 'relative' }}
                           data-id={i + 1}
@@ -199,6 +200,9 @@ function Portfolio() {
                           <img src={images[item.order]} alt="" />
                           <div className="portfolio-text-holder">
                             <div className="portfolio-text-wrapper">
+                            <p className="portfolio-type">
+                                {item.description.type}
+                              </p>
                               <p className="portfolio-text">
                                 {item.description.text}
                               </p>

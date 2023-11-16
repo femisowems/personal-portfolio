@@ -1,9 +1,14 @@
 // Images
-import servIcon1 from '../../../../assets/images/services/service1.png';
-import servIcon2 from '../../../../assets/images/services/service2.png';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 // Styles
 import './portfolio-item.css';
+
+// Images
+import item1 from '../../../../assets/images/portfolio/items/item_01.jpg';
 
 // -------------------
 
@@ -14,47 +19,33 @@ function PortfolioItem3() {
         <div className="row">
           <div className="one-half width-40">
             <h2 className="entry-title section-title">
-              Creatures of the cosmos
+              starterdev.io
             </h2>
 
             <p className="section-info">
-              Two ghostly white figures in coveralls and helmets are softly
-              dancing.
+              Turning ideas into reality
             </p>
 
             <p>
-              Cras pretium metus pulvinar ultricies auctor. In varius purus
-              blandit sem mollis tristique. Curabitur sed lorem vel ligula
-              pulvinar porttitor. Proin sit amet mauris eleifend amet,
-              ullamcorper lacus. Vangelis rich in heavy atoms descended from
-              astronomers dream of the mind’s cras pretium metus pulvinar
-              ultricies auctor in varius purus blandit.
+              A website design & development agency, withe the goal of turing your dream website ideas into reality!
             </p>
 
             <p>
-              <a className="button">Check Project</a>
+            <a href="https://starterdev.io/" target="_blank" className="button">View Website</a>
             </p>
           </div>
 
           <div className="one-half width-55 last">
-            <div className="services-wrapper">
-              <div className="service-holder">
-                <img src={servIcon1} alt="" />
-                <h4 className="service-title">Design</h4>
-                <div className="service-text">
-                  A full stack allaround designer that may or may not include a
-                  guide for specific creative people
-                </div>
-              </div>
-
-              <div className="service-holder m-right-0">
-                <img src={servIcon2} alt="" />
-                <h4 className="service-title">Develop</h4>
-                <div className="service-text">
-                  Tellus pharetra erat tristique erat donec dignissim etiam sed
-                  malesik enim sodales lorem ipsum
-                </div>
-              </div>
+            <div className="image-slider-wrapper relative block-right">
+              <Swiper
+                pagination={{ clickable: true }}
+                loop={true}
+                modules={[Pagination]}
+                className="portfolio-slider">
+                <SwiperSlide>
+                  <img src={item1} alt="portfolio item 1" />
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
         </div>

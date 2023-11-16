@@ -7,6 +7,7 @@ export type PortfolioItemType = {
     number: number;
   };
   description: {
+    type: string;
     text: string;
     caption: string;
   };

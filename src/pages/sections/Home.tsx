@@ -15,7 +15,7 @@ function Home() {
 
           <div className="social-links">
             {homeData.socialLinks.map((link, i) => (
-              <a key={'social-link-' + i} href={link.to}>
+              <a target="_blank" key={'social-link-' + i} href={link.to}>
                 {link.text}
               </a>
             ))}
