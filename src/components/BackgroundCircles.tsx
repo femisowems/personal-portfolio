@@ -44,8 +44,8 @@ function BackgroundCircles() {
         <li id="circle13">PHP</li>
         <li id="circle14">SQL</li>
         <li id="circle15">Java</li>
-        <li id="circle15">Design</li>
-        <li id="circle15">Development</li>
+        <li id="circle16">Design</li>
+        <li id="circle17">Development</li>
       </ul>
     </div>
   );
