@@ -21,13 +21,21 @@ function PortfolioItem4() {
         <div className="row">
           <div className="one-half width-40">
             <h2 className="entry-title section-title">
-              Sudoku
+              Femi S. Personal Portfolio
             </h2>
 
             <p className="section-info">
-              Coming soon...
+              ReBranded my personal website portfolio using React.js
             </p>
 
+            <p>
+            <div> Technologies Used: </div>
+              React · TypeScript · HTML5 · Github · CSS · Vercel 
+            </p>
+
+            <p>
+            <a href="https://github.com/femisowems/personal-portfolio" target="_blank" className="button">View Github</a>
+            </p>
 
 
 

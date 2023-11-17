@@ -36,7 +36,7 @@ function PortfolioItem2() {
             </p>
 
             <p>
-            <a href="https://github.com/femisowems/movies-tvs-library/" target="_blank" className=" button">Github</a>
+            <a href="https://github.com/femisowems/movies-tvs-library/" target="_blank" className=" button">View Github</a>
             </p>
           </div>
           <div className="one-half width-55 last">

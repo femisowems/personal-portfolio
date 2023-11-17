@@ -23,7 +23,7 @@
       },
       "description": {
         "text": "Slick Slicezz",
-        "caption": "Built using React.js, REST api",
+        "caption": "Built using React, REST api",
         "type": "Demo"
       }
     },
@@ -55,15 +55,15 @@
     },
     {
       "order": 3,
-      "category": "pp",
+      "category": "service",
       "action": {
         "type": "item",
         "number": 4
       },
       "description": {
-        "text": "Sudoku",
-        "caption": "coming soon...",
-        "type": "Demo"
+        "text": "Personal Portfolio",
+        "caption": "Built using React, Typescript",
+        "type": "Service/Portfolio"
       }
     }
   ],

@@ -35,8 +35,6 @@ function PortfolioItem1() {
 
             <p>
               <a href="https://starterdev-pizzas-take2.vercel.app/" target="_blank" className="button">View Project</a>
-
-              <a href="https://starterdev-pizzas-take2.vercel.app/" target="_blank" className="m-left-10 button">Github</a>
             </p>
           </div>
           <div className="one-half width-55 last">
