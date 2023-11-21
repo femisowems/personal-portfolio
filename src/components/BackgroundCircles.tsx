@@ -36,7 +36,7 @@ function BackgroundCircles() {
         <li id="circle5">React</li>
         <li id="circle6">Wordpress</li>
         <li id="circle7">Angular</li>
-        <li id="circle8">React</li>
+        <li id="circle8">NgRx</li>
         <li id="circle9">REST Api</li>
         <li id="circle10">GraphQL</li>
         <li id="circle11">SCSS</li>
